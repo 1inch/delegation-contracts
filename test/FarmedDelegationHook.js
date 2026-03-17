@@ -8,7 +8,7 @@ require('@nomicfoundation/hardhat-chai-matchers');
 describe('FarmingDelegationHook', function () {
     let addr1, addr2, delegatee, newDelegatee;
     const MAX_SHARE_HOOKS = 3;
-    const SHARE_HOOKS_GASLIMIT = 150000;
+    const SHARE_HOOKS_GASLIMIT = 140000;
     const ERC20_HOOKS_GASLIMIT = 500000;
 
     before(async function () {
